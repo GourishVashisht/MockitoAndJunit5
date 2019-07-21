@@ -1,6 +1,8 @@
 pipeline{
-    agent{
-    	node any;
+    agent {
+       node{
+    		label 'master'
+    	}
     }
     stages{
         stage("Clean"){
