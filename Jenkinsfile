@@ -34,16 +34,7 @@ pipeline{
 				bat 'mvn sonar:sonar'            
 			}
         }
-        stage("Sonar Quality Gate Check"){
-			steps{
-				timeout(time: 5, unit: 'MINUTES') {
-	            	def qualityGate = waitForQualityGate()
-	                if (qualityGate.status != 'OK') {
-	                   	currentBuild.result = 'UNSTABLE'
-	                }
-            	}			    
-			}
-        }
+        
         stage("Deployment"){
 	        steps{
 	      		bat 'mvn deploy'
