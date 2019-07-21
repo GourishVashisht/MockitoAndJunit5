@@ -1,0 +1,9 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+MockitoAndJunit5,com.nagarro.demo.calculator,Calculator,0,18,0,2,0,5,0,4,0,3
+MockitoAndJunit5,com.nagarro.demo,MathUtils,0,7,0,0,0,2,0,2,0,2
+MockitoAndJunit5,com.nagarro.employeemanaement,EmailService,7,0,0,0,2,0,2,0,2,0
+MockitoAndJunit5,com.nagarro.employeemanaement,EmailHandler,0,5,0,0,0,3,0,2,0,2
+MockitoAndJunit5,com.nagarro.employeemanaement,EmployeeHandler,0,25,0,0,0,10,0,5,0,5
+MockitoAndJunit5,com.nagarro.employeemanaement,InvalidRequestException,3,0,0,0,2,0,1,0,1,0
+MockitoAndJunit5,com.nagarro.employeemanaement,Employee,0,15,0,0,0,6,0,3,0,3
+MockitoAndJunit5,com.nagarro.employeemanaement,EmployeeRepository,22,0,2,0,7,0,5,0,4,0
