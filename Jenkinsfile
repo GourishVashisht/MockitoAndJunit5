@@ -28,7 +28,7 @@ pipeline{
         }
         stage("Build and Run Unit Tests"){
 	        steps{
-	            bat 'mvn clean install'
+	            sh 'mvn clean install'
 	        }
         }
         stage("Sonar"){
