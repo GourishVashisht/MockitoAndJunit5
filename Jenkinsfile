@@ -23,7 +23,17 @@ pipeline{
     	}
     	stage('Build'){
     		steps{
-	    	    sh label: '', script: 'mvn clean install'
+    		    sh label: '', script: '/usr/local/src/apache-maven/bin/mvn clean install'
+    		}
+    	}
+    	/*stage('sonar'){
+    	    steps{
+    	        sh label: '', script: '/usr/local/src/apache-maven/bin/mvn sonar:sonar'
+    	    }
+    	}*/
+    	stage('Archiver'){
+    		steps{
+    		    archiveArtifacts 'target/*.jar'
     		}
     	}
     }
