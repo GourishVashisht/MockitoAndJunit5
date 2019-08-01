@@ -8,10 +8,8 @@ import static org.mockito.Mockito.verifyNoMoreInteractions;
 
 import java.util.List;
 
-import org.junit.Test;
-
 class A {
-    public void a(List<Integer> list) {
+    public void a(final List<Integer> list) {
         list.add(1);
         list.add(2);
         System.out.println("=>" + list.toString() + "=>" + list.size());
@@ -21,10 +19,10 @@ class A {
 
 public class DemoHunitTest {
 
-    @Test
+    // @Test
     public void practise() {
-        A a = new A();
-        List<Integer> list = mock(List.class);
+        final A a = new A();
+        final List<Integer> list = mock(List.class);
         a.a(list);
         verify(list, times(2)).add(anyInt());
         verify(list).size();
