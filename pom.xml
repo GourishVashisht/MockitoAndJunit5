@@ -13,7 +13,7 @@
 
 	<distributionManagement>
 		<repository>
-			<id>ART</id>
+			<id>123456789@artifactory</id>
 			<name>Artifactory</name>
 			<url>http://10.127.126.48:8040/artifactory/workshop/</url>
 		</repository>
