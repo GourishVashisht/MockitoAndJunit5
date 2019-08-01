@@ -1,0 +1,7 @@
+FROM tomcat:alpine
+MAINTAINER Gourish Vashisht
+WORKDIR $JENKINS_HOME/workspace/Gourish_pipeline
+COPY MockitoAndJuni5-0.0.1-SNAPSHOT.jar /usr/local/tomcat/webapps/
+RUN chmod -R 777/usr/local/tomcat/webapps/MockitoAndJunit5-0.0.1-SNAPSHOT.jar
+EXPOSE 8080
+CMD /usr/local/tomcat/bin/catalina.sh run
