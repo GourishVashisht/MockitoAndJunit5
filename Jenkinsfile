@@ -8,14 +8,7 @@ pipeline{
     }
     stage('Checkout'){
         steps{
-            checkoutCodeFromSCM()
-        }
-    }
-    }
-}
-
-checkoutCodeFromSCM(){
-    checkout([
+            checkout([
     	class: 'GitSCM',
        	branches: [[name: '*/master']],
         doGenerateSubmoduleConfigurations: false,
@@ -27,5 +20,8 @@ checkoutCodeFromSCM(){
     		]
           ]
         ])
+        }
+    }
+    }
 }
 
