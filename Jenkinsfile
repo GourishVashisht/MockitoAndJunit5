@@ -1,5 +1,6 @@
 pipeline{
     agent any
+    stages{
     stage('Clean'){
         steps{
             deleteDir()
@@ -9,6 +10,7 @@ pipeline{
         steps{
             checkoutCodeFromSCM()
         }
+    }
     }
 }
 
