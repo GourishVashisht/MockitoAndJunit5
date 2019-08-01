@@ -15,7 +15,7 @@
 		<repository>
 			<id>ART</id>
 			<name>Artifactory</name>
-			<url>http://10.127.126.48:8040/artifactory/webapp/#/artifacts/browse/tree/General/workshop</url>
+			<url>http://10.127.126.48:8040/artifactory/workshop</url>
 		</repository>
 	</distributionManagement>
 	
