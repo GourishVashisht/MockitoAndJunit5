@@ -23,7 +23,7 @@ pipeline{
     	}
     	stage('Build'){
     		steps{
-    		    sh label: '', script: 'mvn clean install'
+    		    bat label: '', script: 'mvn clean install'
     		}
     	}
     	/*stage('sonar'){
