@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="8" failures="0" name="com.nagarro.demo.calculator.CalculatorTest" time="0.112" errors="0" skipped="0">
+<testsuite tests="8" failures="0" name="com.nagarro.demo.calculator.CalculatorTest" time="0.02" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
@@ -27,9 +27,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="D:\Eclipse Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4984950474372291770.tmp"/>
+    <property name="classworlds.conf" value="D:\Eclipse Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1970804216463743182.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Softwares\mongodb-win32-x86_64-enterprise-windows-64-3.4.15\mongodb-win32-x86_64-enterprise-windows-64-3.4.15\bin;C:\Program Files\TortoiseSVN\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;D:\Softwares\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin;D:\Softwares\sonarqube-7.2.1\sonarqube-7.2.1\bin\windows-x86-64;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;D:\Softwares\apache-jmeter-5.0.zip\apache-jmeter-5.0\bin;C:\Program Files\nodejs\;D:\Softwares\apache-activemq-5.15.4-bin\apache-activemq-5.15.4\bin;D:\Softwares\apache-activemq-5.15.8-bin\apache-activemq-5.15.8\bin;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Users\gourishvashisht\AppData\Local\Microsoft\WindowsApps;C:\Users\gourishvashisht\AppData\Roaming\npm;C:\Program Files\Python;C:\Program Files\Sublime Text 3;C:\Users\gourishvashisht\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;;C:\Users\gourishvashisht\Desktop;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Softwares\mongodb-win32-x86_64-enterprise-windows-64-3.4.15\mongodb-win32-x86_64-enterprise-windows-64-3.4.15\bin;C:\Program Files\TortoiseSVN\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;D:\Softwares\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin;D:\Softwares\sonarqube-7.2.1\sonarqube-7.2.1\bin\windows-x86-64;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;D:\Softwares\apache-jmeter-5.0.zip\apache-jmeter-5.0\bin;C:\Program Files\nodejs\;D:\Softwares\apache-activemq-5.15.4-bin\apache-activemq-5.15.4\bin;D:\Softwares\apache-activemq-5.15.8-bin\apache-activemq-5.15.8\bin;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Users\gourishvashisht\AppData\Local\Microsoft\WindowsApps;C:\Users\gourishvashisht\AppData\Roaming\npm;C:\Program Files\Python;C:\Program Files\Sublime Text 3;C:\Users\gourishvashisht\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;;C:\Users\gourishvashisht\Desktop;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -44,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -61,9 +61,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.nagarro.demo.calculator.CalculatorTest" name="shouldThrowExceptionWhenSecondNumberIsZero" time="0.105"/>
-  <testcase classname="com.nagarro.demo.calculator.CalculatorTest" name="shouldDivideOneNegativeAndOnePositiveNumber" time="0.006"/>
-  <testcase classname="com.nagarro.demo.calculator.CalculatorTest" name="shouldMultiplyTwoPositiveNumbersAndReturnAPositiveNumber" time="0.001"/>
+  <testcase classname="com.nagarro.demo.calculator.CalculatorTest" name="shouldThrowExceptionWhenSecondNumberIsZero" time="0.02"/>
+  <testcase classname="com.nagarro.demo.calculator.CalculatorTest" name="shouldDivideOneNegativeAndOnePositiveNumber" time="0"/>
+  <testcase classname="com.nagarro.demo.calculator.CalculatorTest" name="shouldMultiplyTwoPositiveNumbersAndReturnAPositiveNumber" time="0"/>
   <testcase classname="com.nagarro.demo.calculator.CalculatorTest" name="shouldMultiplyTwoNegativeNumbersAndReturnAPositiveNumber" time="0"/>
   <testcase classname="com.nagarro.demo.calculator.CalculatorTest" name="shouldMultiplyOnePoisitiveNumberWithZeroAndReturnZero" time="0"/>
   <testcase classname="com.nagarro.demo.calculator.CalculatorTest" name="shouldDivideTwoNonZeroPositiveNumbers" time="0"/>

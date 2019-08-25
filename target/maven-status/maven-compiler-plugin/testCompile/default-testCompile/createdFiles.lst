@@ -1,7 +1,9 @@
 com\nagarro\employeemanaement\EmployeeHandlerTest.class
+com\nagarro\employeemanaement\A.class
 com\nagarro\employeemanaement\EmployeeHandlerAnnotationsTest.class
 com\nagarro\employeemanaement\EmployeeHandlerMockTest.class
 com\nagarro\demo\MathUtilsTest.class
+com\nagarro\employeemanaement\DemoHunitTest.class
 com\nagarro\employeemanaement\FakeEmployeeReposotory.class
 com\nagarro\demo\calculator\CalculatorTest.class
 com\nagarro\employeemanaement\EmailHandlerTest.class

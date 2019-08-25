@@ -23,7 +23,7 @@ pipeline{
     	}
     	stage('Build'){
     		steps{
-    		    sh label: '', script: '/usr/local/src/apache-maven/bin/mvn clean install'
+    		    sh label: '', script: 'mvn clean install'
     		}
     	}
     	/*stage('sonar'){
