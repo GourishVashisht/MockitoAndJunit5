@@ -31,11 +31,11 @@ pipeline{
     	        sh label: '', script: '/usr/local/src/apache-maven/bin/mvn sonar:sonar'
     	    }
     	}*/
-    	stage('Archiver'){
+    	/*stage('Archiver'){
     		steps{
     		    archiveArtifacts 'target/*.jar'
     		}
-    	}
+    	}*/
     }
 }
 
